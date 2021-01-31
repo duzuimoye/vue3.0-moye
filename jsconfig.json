@@ -1,0 +1,60 @@
+{
+  "exclude": [
+    "node_modules",
+    "text",
+    "prod"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@base/*": [
+        "src/components/base/*"
+      ],
+      "@business/*": [
+        "src/components/business/*"
+      ],
+      "@js/*": [
+        "src/assets/js/*"
+      ],
+      "@mixin/*": [
+        "src/assets/js/mixin/*"
+      ],
+      "@rem/*": [
+        "src/assets/js/rem/*"
+      ],
+      "@dom/*": [
+        "src/assets/js/dom/*"
+      ],
+      "@http/*": [
+        "src/assets/js/http/*"
+      ],
+      "@storage/*": [
+        "src/assets/js/storage/*"
+      ],
+      "@util/*": [
+        "src/assets/js/util/*"
+      ],
+      "@data/*": [
+        "src/assets/data/*"
+      ],
+      "@images/*": [
+        "src/assets/images/*"
+      ],
+      "@stylus/*": [
+        "src/assets/stylus/*"
+      ],
+      "@views/*": [
+        "src/views/*"
+      ]
+    }
+  }
+}
